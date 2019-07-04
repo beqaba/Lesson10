@@ -123,11 +123,11 @@ span1{
 	color: red;
 }
 .main-container{
+	position: relative;
 	background-color: #bdccd4;
 	padding: 30px 0;
-	position: relative;
+	
 }
-
 .flex-column{
 	display: flex;
 	flex-wrap: wrap;
@@ -188,6 +188,9 @@ background-image: url('../img/surati4.gif');
 	margin-left: 30px;
 	position: relative;
 }
+.burger{
+	display: none;
+}
 .tex1{
 position: absolute;
 	bottom:-60px;
@@ -216,11 +219,11 @@ position: absolute;
 	white-space: nowrap;
 	display: all;
 }
-.contai{
+.co{
 	position:absolute;
 	background-color: pink;
-	margin-left: 370px;
-	font-size: 24px;
+	margin-left:370px;
+	font-size:24px;
 	margin-top:5px;
 	color:white;
 }
@@ -305,3 +308,134 @@ position: absolute;
     margin-top: -45px;
     margin-left: 70%;
 }
+@media screen and  (max-width: 1024px){
+
+.bg3, .cot{
+	display: none;
+}
+.sect3{
+	 display: flex;
+ 	 flex-direction: column;
+ 	 margin-right: 400px;
+}
+.co3t{
+	margin-left: -300px;
+}
+footer{
+	display: none;
+}
+.bg{
+background-image: url('../img/kompi.svg');
+	width:1024px;
+	background-size: cover;
+	background-bottom-left: 100px;
+}
+.text{
+	transform:translate(-320px,470px);
+	margin-bottom: 5px;
+}
+.isrebi{
+
+	transform:translate(-420px,280px);
+}
+.isrebir{
+	transform:translate(420px,280px);
+}
+.logo{
+	right: -300px;
+}
+.navbar{
+	display: none;
+}
+.burger{
+	display: block;
+	width: 40px;
+	display: flex;
+	margin-top: -10px;
+}
+.co{
+	margin-left: 20px;
+	margin-top: -27px;
+}
+.log{
+	margin-left: 40px;
+}
+}
+@media (max-width:480px) {
+.container {
+	max-width: 480px;
+	width:100%;
+	margin: 0 auto;
+}
+
+.navbar-li{
+	display: none;
+	}
+.text{
+	transform:translate(-40px,470px);
+	margin-bottom: 5px;
+}
+.logo{
+	right: -50px;
+}
+.flex-column{
+	display: flex;
+ 	flex-direction: column;
+ 	width: 480px;
+ 	height: 100%;
+ }
+.item1{
+	border:none;
+	width: 480px;
+	margin-left: 120px;
+	flex-direction: column;
+	    height: 270px;
+}
+.co3t{
+	    margin-left: 0px;
+}
+.item{
+	border:none;
+	width: 480px;
+	margin-left: 120px;
+	flex-direction: column;
+	    height: 270px;
+}
+.sect3{
+	 display: flex;
+ 	 flex-direction: column;
+ 	 margin-right: 100px;
+ 	 box-sizing:100%;
+ }
+.poto{
+ 	    margin-top: 0px;
+ 	    margin-left: -290px;
+ 	    margin-bottom: 20px;
+ }
+ .pot{
+ 	    margin-top: 0px;
+ 	    margin-left: -290px;
+ 	    margin-bottom: 20px;
+ }
+ .tex2{
+ 	    width: 358px;
+    margin-left: -73px;
+ }
+ .bg2{
+ 		margin-left: 0px;
+ 	    margin-top: 60px;
+ }
+ .bg1{
+ 		margin-left: 0px;
+ }
+ .bg0{
+ 	margin-bottom: 80px;
+ }
+ .fut{
+ 	    margin-left: 180px;
+ 	    margin-top: 110px;
+ }
+ .title-h5{
+ 	display: none;
+ }
+ }
